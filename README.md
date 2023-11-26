@@ -167,4 +167,4 @@ http {
 
 ```
 
-需要把sky的文件夹防止在/usr/local/var/www下面
+需要把sky的文件夹放置在/usr/local/var/www下面
