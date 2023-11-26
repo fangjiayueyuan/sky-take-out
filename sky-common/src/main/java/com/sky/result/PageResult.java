@@ -17,6 +17,9 @@ public class PageResult implements Serializable {
 
     private long total; //总记录数
 
+    private int pageSize; //每页记录数
+    private int currentPage; //当前页码
+
     private List records; //当前页数据集合
 
 }
