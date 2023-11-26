@@ -11,7 +11,7 @@ sky:
     password: root123&&
 ```
 
-mac启动nginx服务：
+## mac启动nginx服务
 
 ```
 brew install nginx // 安装
