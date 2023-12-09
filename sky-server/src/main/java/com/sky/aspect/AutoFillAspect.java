@@ -31,8 +31,6 @@ import java.time.LocalDateTime;
 @Slf4j
 public class AutoFillAspect {
     /**
-     * @param null:
-     * @return null
      * @author jiayueyuanfang
      * @description 切入点定义：拦截com.sky.mapper包下所有类的所有方法，并且这些方法上有@AutoFill注解的
      * @date 2023/12/9 10:02
@@ -41,9 +39,6 @@ public class AutoFillAspect {
     public void autoFillPointCut(){}
 
     /**
-     * @param null:
-     * @return null
-     * @author jiayueyuanfang
      * @description 前置通知，在通知中进行公共字段的赋值
      * @date 2023/12/9 10:05
      */
