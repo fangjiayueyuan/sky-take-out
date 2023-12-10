@@ -10,14 +10,7 @@ sky:
     endpoint: oss-cn-beijing.aliyuncs.com
     access-key-id: LTAI5t9ztVacMu6EY2XSe9N3
     access-key-secret: EvEHE3Zm7taRP0tl3g5edzpuHsBV10
-    bucket-name: sky-itcast-fjyy
-spring:
-  servlet:
-    multipart:
-      enabled: true #是否启用http上传处理
-      max-file-size: 10MB #设置单个文件最大长度
-      max-request-size: 100MB #最大请求文件的大小
-
+    bucket-name: sky-itcast-fjyy2
 
 
 
