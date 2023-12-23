@@ -29,7 +29,6 @@ import java.util.List;
  */
 @Service
 @Slf4j
-@Service
 public class DishServiceImpl implements DishService {
 
     @Autowired
