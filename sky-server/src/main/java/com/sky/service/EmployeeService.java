@@ -19,7 +19,7 @@ public interface EmployeeService {
 
     void save(EmployeeDTO employeeDTO) throws UnsupportedEncodingException;
 
-    PageResult pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
+    PageResult<D> pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
 
     void startOrStop(Integer status, Long id);
 
